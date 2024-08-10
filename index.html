@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+	<h1>Identify all p tags with no children and no ignore class(may need to refresh after)</h1>
+	<button name="btn1" id="btn1">CLICK</button><br>
+	<p>dont have class</p>
+	<p>
+		<p class="ignore">has class</p>
+	</p>
+
+	<h1>Identify any element with the text replace me</h1>
+	<button name="btn2" id="btn2">CLICK</button><br>
+	<p>REPLACE_ME</p>
+	<p>NOT_ME</p>
+
+	<h1>Identify all div tags with the class special(may need to refresh after)</h1>
+	<button name="btn3" id="btn3">CLICK</button><br>
+	<div class="block">
+		<p class="special">i am special</p>
+	</div>
+	<div class="block">i am not special</div>
+
+	<h1>Identify all header elements</h1>
+	<button name="btn4" id="btn4">CLICK</button><br>
+	<h1>h1</h1>
+	<h2>h2</h2>
+	<h3>h3</h3>
+	<h4>h4</h4>
+	<h5>h5</h5>
+	<h6>h6</h6>
+	<p>dont change</p>
+
+	<h1>Identify all visible li</h1>
+	<button name="btn5" id="btn5">CLICK</button><br>
+	<li>visible1</li>
+	<li style= "display: none;">unvisible11</li>
+	<li>visible2</li>
+	<li style= "display: none;">unvisible12</li>
+
+
+	<h1>Use jQuery to target the square and change its position in a random direction every time the button is clicked</h1>
+	<button name="btn6" id="btn6">CLICK</button>
+	<div class="square"></div>
+</body>
+    <script src="script.js"></script>
+</html>
